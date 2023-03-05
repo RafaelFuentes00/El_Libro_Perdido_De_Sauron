@@ -1,0 +1,26 @@
+[
+    {
+        "id":1,
+        "titulo":"El Hobbit",
+        "descripcion":"LOREM IPSUM AMET",
+        "precio":20,
+        "img":"el-hobbit.jpg",
+        "autor":"J.R.R. Tolkien"
+    },
+    {
+        "id":2,
+        "titulo":"El Señor de los Anillos",
+        "descripcion":"LOREM IPSUM AMET",
+        "precio":25,
+        "img":"lotr.webp",
+        "autor":"J.R.R. Tolkien"
+    },
+    {
+        "id":3,
+        "titulo":"El Silmarillion",
+        "descripcion":"LOREM IPSUM AMET",
+        "precio":30,
+        "img":"silmarillion.jpg",
+        "autor":"J.R.R. Tolkien"
+    }
+]

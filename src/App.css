@@ -1,0 +1,14 @@
+.cookies{
+  position: fixed;
+  padding: 1.4rem;
+  background-color: antiquewhite;
+  width: 100%;
+}
+.cookiesButtons{
+  display: flex;
+  float: right;
+}
+.cookiesBtn{
+  padding: 0.4rem 1rem;
+  margin: 0.2rem;
+}
