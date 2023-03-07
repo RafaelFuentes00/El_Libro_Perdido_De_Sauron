@@ -102,7 +102,7 @@ function App() {
     <div>
       {
         cookiesBanner===true ? 
-        <div className="cookies">Esta página utiliza la politica de cookies para mejorar la experiencia del usuario. ¿Aceptas el uso de Cookies?
+        <div className="cookies">Esta página utiliza la <a href="privacity.html"> politica de privacidad y politica de cookies</a> para mejorar la experiencia del usuario.Para más informacion puede consultar las <a href="general.html">condiciones generales</a> o el <a href="legal.html"> aviso legal</a>. ¿Aceptas el uso de Cookies?
           <div className="cookiesButtons">
             <button className="cookiesBtn" onClick={handleCookies}>Aceptar</button>
             <button className="cookiesBtn" onClick={handleCookiesBanner}>Rechazar</button>
@@ -163,7 +163,7 @@ function App() {
         introbtn ? <div>Bienvenido a El libro perdido de Sauron,
            un lugar para pasarlo en grande y disfrutar de las mejores historias jamás escritas. 
            Aquí encontrarás un montón de libros de tu agrado pero, antes de comenzar ¿porqué no te registras en nuestra página web?
-           <p><a>Registrarse ahora</a></p> <p><a>¿Ya tienes una cuenta?</a></p></div>:<div></div>
+           <p><a href="register.html">Registrarse ahora</a></p> <p><a href="login.html">¿Ya tienes una cuenta?</a></p></div>:<div></div>
         
        
 
